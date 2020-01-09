@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.main{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(132deg, rgba(140,122,230,1) 5%, rgba(95,156,199,1) 30%, rgba(68,189,50,1) 97%);
+    /* background: linear-gradient(132deg, rgba(90,124,191,1) 0%, rgba(49,103,171,1) 35%, rgba(0,159,255,1) 100%); */
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav{
+    display: flex;
+    min-height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+.main h1{
+    text-align: center;
+    font-size: 54px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e4e9ed;
+    text-shadow: 4px 2px #95a5a6;
+}
+
+.logo{
+    max-width: 140px;
+    height: auto;
+    overflow: hidden;
+}
+
+.topnav-links{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.topnav-links a{
+    text-decoration: none;
+    color: #f5f6fa;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav-links li{
+    list-style-type: none;
+    padding: 16px;
+    transition: 0.8s all;
+}
+
+.topnav-links li:hover{
+    background-color: rgba(64, 47, 47, 0.3);
+    border-radius: 4px;
+}
+
+.container{
+    width: 1351px;
+    padding: 100px 140px 100px 140px ;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-container{
+    margin-top: -75px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    margin: 5px;
+    float: left;
+    width: 250px;
+    height: 270px;
+    background: #0097e6;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-container{
+    margin-top: 10px;
+    width: 75%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-customer{
+    background: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 140px; 
+    height: 140px; 
+    border-radius: 50%;
+}
+.image-customer img{
+    width: 140px; 
+    height: 140px; 
+    border-radius: 50%;
+}
+
+.image-container img{
+    width: 60%;
+}
+.card-container h2{
+    text-align: center;
+    color: #242323;
+}
+.card-container h4{
+    text-align: center;
+    color: #424141;
+}
+.border-wrap{
+    max-width: 250px;
+    margin: 0;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(132deg, rgba(140,122,230,1) 5%, rgba(95,156,199,1) 30%, rgba(68,189,50,1) 97%);
+    padding: 3px;
+    border-radius: 5px;
+}
+.card-container p{
+    text-align: center;
+    margin: 0;
+    color: rgb(44, 44, 44);
+    background: #0097e6;
+}
+.p-half{
+    font-weight: lighter;
+    margin-top: 10px;
+    vertical-align: middle;
+    float: left;
+    width: 45%;
+    text-align: left;
+    color: #242323;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.hborder-wrap{
+    background: linear-gradient(132deg, rgba(140,122,230,1) 5%, rgba(95,156,199,1) 30%, rgba(68,189,50,1) 97%);
+    height: 8px;
+}
+
+.review-container{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 32vh;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 24vh;
+    background-color: #2f3640;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+.footer-wrap{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.logo-image{
+    margin-top: 15px;
+    margin-left: 8px;
+    float: left;
+    width: 50px;
+}
+
+.td-topic{
+    text-align: justify;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+table td{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
